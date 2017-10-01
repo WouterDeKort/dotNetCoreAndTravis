@@ -1,2 +1,4 @@
 language: csharp
 solution: MyApp/MyApp.sln
+script:
+  - msbuild /t:Rebuild MyApp/MyApp.sln
