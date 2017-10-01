@@ -2,4 +2,4 @@
 
 set -e
 
-dotnet build -c Release MyApp.sln
+dotnet build -c Release MyApp/MyApp.sln
