@@ -3,6 +3,8 @@ mono: none
 dotnet: 2.0.0
 dist: trusty
 sudo: false
-
 script:
-  - "./travis.sh"
+- "./travis.sh"
+notifications:
+  slack:
+    secure: iCPxX0WMZPH1Pt6BnnEJX7prkvY8jYk7oeq9YsBsSuS3qIwIykBSIQjFbtJfWWtRWymZeBBI9ijnyO30Q+tHbzP106GXa5UwRQmeKsERnmDD8f8kw0nYs1SR88eRWWwooPvFyJ3ie4WSdsZrhYrt0UXlw0NCVGZETVEbelN0ZDni93aZoS2SnWrJ0YQtdmiJyHz6W0Sw6sTa4aI7tGIxl4NF25JfQX5ghcxVLpAUFVPJpw2FjyfhlgPgFBKaDLjHIVtdXRZcJhd1p/X7IhLrAc0rXvlBlSylRwSLez/Jkie3GS+DvXlSwTCN5v4IX4yugwpzmIAvUJFAScgVmVIdCMinTlJ4a7mbTlDrKXT1HSBX2OKCZ47y1AWWRnGZJ0DjY6+Vw1GNDuir4VyiAOe6kJGYn8P95w1KHGCtajQ1ph19cnL//DZ+2p9/lnKIGQhKeKJ8dh/dAehPycQBH99RTtdjKwv7CYtg8fsgLN6V35dAutccn+8aVFEnRHmkqm/ABLc5JqoPiUn9zboR1eayY90O/35zlYjYVAEVf5kXsXhEK97q52y3pG2V/cr1KkexKN4kCK0K+UK251O2leLHOqaIPUK89GAZcgjTtaWSujh9IJrDg35vyIGG5zD3aWNvETqX9OAC5IManGPgYyZVvbgECRSw3+jMIZrzHoWrEls=
